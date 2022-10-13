@@ -12,7 +12,7 @@ In recent years, Artificial Intelligence for autonomous driving systems has beco
 At each frame we first take the image coming from a monocular camera, placed above the vehicle roof. Then we detect and classify the objects in the scene using YOLOv4, that is a one-stage object detector. We manipulate the camera calibration matrix in order to recover longitudinal and lateral distances from the vehicle to the objects detected. After that, we apply an object tracking algorithm on the objects in order to track their motion. Then, for each object detected, we evaluate the potential danger based on different specific criteria. We evaluate our method on the KITTI raw dataset, using mean average precision (mAP) for object detection, and root mean square error (RMSE) for distance estimation.
 
 ## Demonstration
-
+[![ezgif-com-gif-maker-2.gif](https://i.postimg.cc/KcdqfgBt/ezgif-com-gif-maker-2.gif)](https://postimg.cc/PNQQrJ6q)
 
 ## [Report](https://github.com/Starnino/eaivp-project/blob/main/EAI_Project.pdf)
 ## [Notebook](https://github.com/Starnino/eaivp-project/blob/main/eai-project.ipynb)
